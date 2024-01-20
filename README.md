@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Calculadora IMC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple body mass index (BMI) calculator. It allows users to input their weight and height, and then calculates their BMI based on the provided values.
 
-Currently, two official plugins are available:
+## Functionalities
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Input weight and height values
+- Calculate BMI based on the provided values
+- Display the calculated BMI
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This project was developed using the following technologies:
 
-- Configure the top-level `parserOptions` property like this:
+- [React](https://reactjs.org/)
+- [Vite.js](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Getting Started
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To get started with this project, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/jhonatan-oliveiradev/calculadora-imc.git`
+2. use ``npm i`` command to install dependencies.
+3. use the command ``npm run dev`` to execute the project on <http://localhost:5173>.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
