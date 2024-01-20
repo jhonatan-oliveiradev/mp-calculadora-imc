@@ -1,6 +1,6 @@
-import { Form } from "./components/Form";
-import { ReferenceTable } from "./components/ReferenceTable";
-import { Result } from "./components/Result";
+import { Form } from "./components/Form/Form";
+import { ReferenceTable } from "./components/Table/ReferenceTable";
+import { Result } from "./components/Result/Result";
 
 function App() {
 	return (
